@@ -1,3 +1,4 @@
 # Component Library
 
-work in progress
+## Status
+In progress.
