@@ -10,4 +10,4 @@ export default function Badge({children, color, shape}) {
             {children}
         </div>
     )
-}
+} 
