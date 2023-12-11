@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&family=Permanent+Marker&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -5,10 +7,32 @@
 body {
   height: 100vh;
   margin: 0;
-  padding: 10px;
   display: flex;
   justify-content: center;
-  font-family: Inter;
+  font-family: Inter, cursive, sans-serif;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 1em 0;
+}
+
+h2 {
+  font-family: "Permanent Marker", sans-serif;
+  font-size: 2.75rem;
+  margin: 0 0 0.5em 2em;
+}
+
+h3 {
+  font-family: "Permanent Marker", sans-serif;
+  font-size: 1.25rem;
+  color: #5E5D5D;
+  /* text-align: right; */
 }
 
 .star {
@@ -107,15 +131,71 @@ button.button-danger {
   border-bottom: 1px solid #6B7280;
 }
 
-.box {
-  height: 100px;
-  width: 100px;
-  border: 1px solid black;
-  cursor: pointer;
-  background-color: white;
-  transition: background-color .3s ease-in-out;
+/* BADGES */
+.badges-square-row {
+  margin-bottom: 1em;
 }
 
-.box.filled {
-  background-color: blue;
+.badges-square-row,
+.badges-pill-row {
+  display: flex;
+  justify-content: end;
+  gap: 1em;
 }
+
+.badge {
+  padding: 0.5em 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.square {
+  border-radius: 0.25em;
+}
+
+.pill {
+  border-radius: 0.75em;
+}
+
+.gray {
+  color: #1F2937;
+  background-color: #F3F4F6;
+}
+
+.red {
+  color: #991B1B;
+  background-color: #FEE2E2;
+}
+
+.yellow {
+  color: #92400E;
+  background-color: #FEF3C7;
+}
+
+.green {
+  color: #065F46;
+  background-color: #D1FAE5;
+}
+
+.blue {
+  color: #1E40AF;
+  background-color: #DBEAFE;
+}
+
+.indigo {
+  color: #3730A3;
+  background-color: #E0E7FF;
+}
+
+.purple {
+  color: #5B21B6;
+  background-color: #EDE9FE;
+}
+
+.pink {
+  color: #9D174D;
+  background-color: #FCE7F3;
+}
+
