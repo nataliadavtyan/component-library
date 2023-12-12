@@ -12,13 +12,19 @@ body {
   font-family: Inter, cursive, sans-serif;
 }
 
+#root {
+  width: 70%;
+  max-width: 1000px;
+  min-width: 400px;
+}
+
 h1, h2, h3, h4, p {
   margin: 0;
 }
 
 h1 {
   font-size: 3rem;
-  text-align: center;
+  text-align: left;
   margin: 1em 0;
 }
 
@@ -38,6 +44,8 @@ main {
   padding: 20px;
 }
 
+
+/* STAR */
 .star {
   height: 30px;
   width: 30px;
@@ -51,6 +59,8 @@ main {
   color: orange;
 }
 
+
+/* BUTTON */
 button {
   background-color: #E5E7EB;
   color: #4B5563;
@@ -96,6 +106,8 @@ button.button-danger {
   border-color: #F87171;
 }
 
+
+/* MENU */
 .menu {
   position: relative;
   display: inline-block;
@@ -133,6 +145,7 @@ button.button-danger {
 .menu-item:not(:last-child) {
   border-bottom: 1px solid #6B7280;
 }
+
 
 /* BADGES */
 .badges-square-row {
@@ -321,8 +334,6 @@ button.button-danger {
 .cards-container > p {
   font-size: 0.875rem;
   color: #6B7280;
-  /* margin-top: 1.5em; */
-  /* text-align: left; */
 }
 
 .card {
@@ -352,8 +363,6 @@ button.button-danger {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid red; */
-  /* margin-bottom: 1em; */
 }
 
 .card-text {
@@ -377,4 +386,12 @@ button.button-danger {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5em;
+}
+
+
+/* TESTIMONIALS */
+.testimonial {
+  background: #2545B8;
+  width: 100%;
+  height: 200px;
 }
