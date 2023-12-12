@@ -8,19 +8,19 @@ import {
 } from "react-icons/fa6"
 import { IconContext } from "react-icons"
 
-export default function Banner({ children, variant = "neutral" }) {
-    const allClasses = classNames('banner', variant)
+export default function Banner({ children, status = "neutral" }) {
+    const allClasses = classNames('banner', status)
 
-    const heading = variant === "success" ? 
+    const heading = status === "success" ? 
             {text: "Congratulations!",
             icon: <FaCircleCheck />} :
-        variant === "warning" ? 
+        status === "warning" ? 
             {text: "Attention",
             icon: <FaTriangleExclamation />} :
-        variant === "error" ? 
+        status === "error" ? 
             {text: "There is a problem with your application",
             icon: <FaCircleXmark />} :
-        variant === "neutral" ? 
+        status === "neutral" ? 
             {text: "Update available",
             icon: <FaCircleInfo />} : ""
 

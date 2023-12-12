@@ -8,34 +8,34 @@ export default function Banners() {
             <div className="banners-container">
                 <div>
                     <h3>Success</h3>
-                    <Banner variant="success">
+                    <Banner status="success">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
                     </Banner>
-                    <Banner variant="success" />
+                    <Banner status="success" />
                 </div>
                 
                 <div>
                     <h3>Warning</h3>
-                    <Banner variant="warning">
+                    <Banner status="warning">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
                     </Banner>
-                    <Banner variant="warning" />
+                    <Banner status="warning" />
                 </div>
 
                 <div>
                     <h3>Error</h3>
-                    <Banner variant="error">
+                    <Banner status="error">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
                     </Banner>
-                    <Banner variant="error" />
+                    <Banner status="error" />
                 </div>
 
                 <div>
                     <h3>Neutral</h3>
-                    <Banner variant="neutral">
+                    <Banner status="neutral">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</p>
                     </Banner>
-                    <Banner variant="neutral" />
+                    <Banner status="neutral" />
                 </div>
             </div>
         </main>

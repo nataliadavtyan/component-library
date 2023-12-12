@@ -9,6 +9,7 @@ export default function App() {
         <h1>Component Library</h1>
           <Badges />
           <Banners />
+          <Cards />
       </>
   )
 }
