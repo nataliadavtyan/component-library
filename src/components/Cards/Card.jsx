@@ -1,9 +1,17 @@
 import React from "react"
 
-export default function Card() {
+export default function Card({ icon, children }) {
     return (
-        <div>
-            <h2>Card component here</h2>
+        <div className="card">
+            {
+                icon &&
+                    <div className="card-icon">
+                        {icon}
+                    </div>
+            }
+            <div className="card-text">
+                {children}
+            </div>
         </div>
     )
 }
